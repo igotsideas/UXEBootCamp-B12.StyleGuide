@@ -15,8 +15,8 @@ public/stylesheets/*.css.map
 
 # bourbon
 ###############
-sass/bourbon
-sass/neat
+/sass/bourbon
+/sass/neat
 
 # Package dependencies
 ######################
