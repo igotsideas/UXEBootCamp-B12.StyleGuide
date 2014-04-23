@@ -13,6 +13,11 @@ Thumbs.db
 public/stylesheets/*.css
 public/stylesheets/*.css.map
 
+# bourbon
+###############
+sass/bourbon
+sass/neat
+
 # Package dependencies
 ######################
 node_modules/
