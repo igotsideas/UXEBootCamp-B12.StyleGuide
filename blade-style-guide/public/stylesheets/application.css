@@ -1,2 +1,57 @@
+@font-face {
+  font-family: 'BladeRunner';
+  src: url('fonts/BLADRMF_.TTF');
+  src: local('Blade Runner Movie Font'); }
+
+.btn-one {
+  background-color: #FF5982;
+  border: 1px solid white;
+  box-shadow: 0 0 0 2px #FF5982;
+  color: white;
+  display: inline-block;
+  font: normal 13px/25px Helvetica, Arial, Sans Serif;
+  height: 29px;
+  margin-right: 6px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  border-radius: 0.4em;
+  padding-top: 0.5em;
+  font-family: 'BladeRunner'; }
+
+.btn-two {
+  background-color: #CB68D2;
+  border: 1px solid white;
+  box-shadow: 0 0 0 2px #CB68D2;
+  color: white;
+  display: inline-block;
+  font: normal 13px/25px Helvetica, Arial, Sans Serif;
+  height: 29px;
+  margin-right: 6px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  border-radius: 0.4em;
+  padding-top: 0.5em;
+  font-family: 'BladeRunner'; }
+
+.btn-three {
+  background-color: #50A8FF;
+  border: 1px solid white;
+  box-shadow: 0 0 0 2px #50A8FF;
+  color: white;
+  display: inline-block;
+  font: normal 13px/25px Helvetica, Arial, Sans Serif;
+  height: 29px;
+  margin-right: 6px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  border-radius: 0.4em;
+  padding-top: 0.5em;
+  font-family: 'BladeRunner'; }
 
 /*# sourceMappingURL=application.css.map */
