@@ -1,0 +1,8 @@
+
+@mixin articleMix() {
+  margin: 0 auto;
+  border: 0.2em solid #50a8ff;
+  padding:1em;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+}
