@@ -36,10 +36,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@import url("http://fonts.googleapis.com/css?family=Orbitron:400,900,700,500");
 @font-face {
-  font-family: 'BladeRunner';
-  src: url('fonts/BLADRMF_.TTF');
-  src: local('Blade Runner Movie Font'); }
+  font-family: 'blade_runner_movie_fontRg';
+  src: url('fonts/bladrmf_-webfont.eot');
+  src: url('fonts/bladrmf_-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/bladrmf_-webfont.woff') format('woff'), url('fonts/bladrmf_-webfont.ttf') format('truetype'), url('fonts/bladrmf_-webfont.svg#blade_runner_movie_fontRg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+h1 {
+  color: black;
+  font-family: 'blade_runner_movie_fontRg';
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+h2 {
+  color: black;
+  font-family: 'blade_runner_movie_fontRg';
+  font-size: 2.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+p {
+  color: black;
+  font-family: 'Orbitron';
+  font-size: 1em; }
 
 .container {
   *zoom: 1;
@@ -57,8 +79,8 @@ table {
   width: 100%;
   position: relative;
   top: 0;
-  height: 5em;
-  background-color: tomato;
+  height: 6em;
+  background-color: black;
   display: block;
   padding-top: 1em; }
 
@@ -67,26 +89,37 @@ table {
   position: relative;
   top: 0;
   height: 5em;
-  background-color: tomato;
+  background-color: black;
   display: block;
-  padding-top: 1em;
+  padding-top: 1.5em;
   margin-top: 2em; }
 
-header h1 {
-  font-size: 2em;
-  text-align: center; }
+.l-style h1 {
+  font-family: 'blade_runner_movie_fontRg';
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  margin: 0; }
 
-footer h3 {
+.l-foot h3 {
+  font-family: 'blade_runner_movie_fontRg';
   font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  margin: 0; }
+
+.m-border h1 {
+  font-family: 'Orbitron', 'sans-serif';
+  font-size: 2em;
+  color: white;
+  margin: 0; }
 
 .m-box-guide {
   position: relative;
   border: 0.2em solid black;
   max-width: 50em;
   background-color: transparent;
-  padding: 10em 2em;
-  opacity: 0.5;
+  padding: 4em 2em;
   margin: 0 auto;
   border-radius: 0.5em;
   -webkit-box-sizing: border-box;
@@ -100,7 +133,78 @@ footer h3 {
   left: 0;
   background-color: black;
   color: white;
-  width: 49.7em; }
+  width: 49.7em;
+  padding: 1em 0; }
+
+.m-box-blue {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #50A8FF; }
+
+.m-box-blue p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+.m-box-pink {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #FF5982; }
+
+.m-box-pink p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+.m-box-green {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #68D286; }
+
+.m-box-green p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+.m-box-purple {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #CB68D2; }
+
+.m-box-purple p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+.m-box-charc {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #364339; }
+
+.m-box-charc p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
 
 .btn-one {
   background-color: #FF5982;
@@ -152,5 +256,14 @@ footer h3 {
   border-radius: 0.4em;
   padding-top: 0.5em;
   font-family: 'BladeRunner'; }
+
+article {
+  border: 0.3em solid #50a8ff;
+  padding: 1em;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.a-bloc {
+  margin-top: 1.5em; }
 
 /*# sourceMappingURL=application.css.map */

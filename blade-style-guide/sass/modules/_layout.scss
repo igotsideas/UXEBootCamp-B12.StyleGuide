@@ -1,9 +1,22 @@
-header h1 {
-  font-size: 2em;
+ .l-style h1 {
+  font-family: 'blade_runner_movie_fontRg';
+  font-size: 4em;
   text-align: center;
+  color: white;
+  margin: 0;
 }
 
-footer h3 {
+.l-foot h3 {
+  font-family: 'blade_runner_movie_fontRg';
   font-size: 2em;
   text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.m-border h1 {
+  font-family: 'Orbitron', 'sans-serif';
+  font-size: 2em;
+  color: white;
+  margin: 0;
 }

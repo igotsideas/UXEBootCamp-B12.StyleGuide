@@ -8,3 +8,52 @@
   @include m-main-border;
 }
 
+.m-box-blue {
+  @include m-box-color(#50A8FF);
+}
+
+.m-box-blue p {
+  color:white;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+.m-box-pink {
+  @include m-box-color(#FF5982);
+}
+
+.m-box-pink p {
+  color:white;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+.m-box-green {
+  @include m-box-color(#68D286);
+}
+
+.m-box-green p {
+  color:white;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+.m-box-purple {
+  @include m-box-color(#CB68D2);
+}
+
+.m-box-purple p {
+  color:white;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+.m-box-charc {
+  @include m-box-color(#364339);
+}
+
+.m-box-charc p {
+  color:white;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
