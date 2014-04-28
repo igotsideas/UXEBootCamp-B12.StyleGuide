@@ -1,29 +1,26 @@
-@mixin m-main-box{
-  .m-typog {
-  position: relative;
-  border: 0.2em solid black;
-  max-width: 50em;
-  background-color: silver;
-  padding: 10em 2em;
-  opacity: 0.5;
-  margin: 0 auto;
-  border-radius: 0.5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+@mixin m-main-box {
+    position: relative;
+    border: 0.2em solid black;
+    max-width: 50em;
+    background-color: transparent;
+    padding: 10em 2em;
+    opacity: 0.5;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 4.5em;
+  }
+
+  @mixin m-main-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 49.7em;
 }
 
-.m-border {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  color: white;
-  width: 49.7em;
-  opacity: 0.9;
-}
 
-.m-border h2 {
-  text-align: center;
-}
 

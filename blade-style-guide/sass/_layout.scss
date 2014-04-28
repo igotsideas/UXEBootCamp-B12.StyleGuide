@@ -1,3 +1,9 @@
 @import "layout/manifest";
 
+.l-style {
+  @include header-bar;
+}
 
+.l-foot {
+  @include footer-bar;
+}

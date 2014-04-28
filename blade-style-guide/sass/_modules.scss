@@ -1,6 +1,10 @@
 @import "modules/manifest";
 
+.m-box-guide {
+  @include m-main-box;
+}
 
-// Box for style modules
-
+.m-border {
+  @include m-main-border;
+}
 
