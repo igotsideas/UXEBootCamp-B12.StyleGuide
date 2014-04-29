@@ -36,7 +36,30 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@import url("http://fonts.googleapis.com/css?family=Orbitron:400,900,700,500");
+p {
+  font-family: 'orbitronregular'; }
+
+a {
+  font-family: 'orbitronbold';
+  font-weight: bold; }
+
+h1, h2 {
+  font-family: 'blade_runner_movie_fontRg'; }
+
+@font-face {
+  font-family: 'orbitronbold';
+  src: url('fonts/orbitron-bold-webfont.eot');
+  src: url('fonts/orbitron-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron-bold-webfont.woff') format('woff'), url('fonts/orbitron-bold-webfont.ttf') format('truetype'), url('fonts/orbitron-bold-webfont.svg#orbitronbold') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'orbitronregular';
+  src: url('fonts/orbitron-regular-webfont.eot');
+  src: url('fonts/orbitron-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/orbitron-regular-webfont.woff') format('woff'), url('fonts/orbitron-regular-webfont.ttf') format('truetype'), url('fonts/orbitron-regular-webfont.svg#orbitronregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
 @font-face {
   font-family: 'blade_runner_movie_fontRg';
   src: url('fonts/bladrmf_-webfont.eot');
@@ -45,23 +68,32 @@ table {
   font-style: normal; }
 
 h1 {
-  color: black;
-  font-family: 'blade_runner_movie_fontRg';
+  color: #FF5982;
   font-size: 3em;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
 h2 {
-  color: black;
-  font-family: 'blade_runner_movie_fontRg';
+  color: #CB68D2;
   font-size: 2.2em;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
 p {
-  color: black;
-  font-family: 'Orbitron';
+  color: #999999;
   font-size: 1em; }
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #50A8FF; }
+
+.style-link {
+  margin-top: 1.5em;
+  display: inline-block; }
+
+body {
+  background-color: black; }
 
 .container {
   *zoom: 1;
@@ -80,7 +112,7 @@ p {
   position: relative;
   top: 0;
   height: 6em;
-  background-color: black;
+  background-color: white;
   display: block;
   padding-top: 1em; }
 
@@ -89,7 +121,7 @@ p {
   position: relative;
   top: 0;
   height: 5em;
-  background-color: black;
+  background-color: white;
   display: block;
   padding-top: 1.5em;
   margin-top: 2em; }
@@ -98,25 +130,25 @@ p {
   font-family: 'blade_runner_movie_fontRg';
   font-size: 4em;
   text-align: center;
-  color: white;
+  color: black;
   margin: 0; }
 
 .l-foot h3 {
   font-family: 'blade_runner_movie_fontRg';
   font-size: 2em;
   text-align: center;
-  color: white;
+  color: black;
   margin: 0; }
 
 .m-border h1 {
   font-family: 'Orbitron', 'sans-serif';
   font-size: 2em;
-  color: white;
+  color: black;
   margin: 0; }
 
 .m-box-guide {
   position: relative;
-  border: 0.2em solid black;
+  border: 0.2em solid white;
   max-width: 50em;
   background-color: transparent;
   padding: 4em 2em;
@@ -131,8 +163,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width: 49.7em;
   padding: 1em 0; }
 
@@ -206,56 +238,16 @@ p {
   font-size: 0.8em;
   margin-top: 3em; }
 
-.btn-one {
-  background-color: #FF5982;
-  border: 1px solid white;
-  box-shadow: 0 0 0 2px #FF5982;
-  color: white;
-  display: inline-block;
-  font: normal 13px/25px Helvetica, Arial, Sans Serif;
-  height: 29px;
-  margin-right: 6px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 200px;
-  border-radius: 0.4em;
-  padding-top: 0.5em;
-  font-family: 'BladeRunner'; }
-
-.btn-two {
-  background-color: #CB68D2;
-  border: 1px solid white;
-  box-shadow: 0 0 0 2px #CB68D2;
-  color: white;
-  display: inline-block;
-  font: normal 13px/25px Helvetica, Arial, Sans Serif;
-  height: 29px;
-  margin-right: 6px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 200px;
-  border-radius: 0.4em;
-  padding-top: 0.5em;
-  font-family: 'BladeRunner'; }
-
-.btn-three {
-  background-color: #50A8FF;
-  border: 1px solid white;
-  box-shadow: 0 0 0 2px #50A8FF;
-  color: white;
-  display: inline-block;
-  font: normal 13px/25px Helvetica, Arial, Sans Serif;
-  height: 29px;
-  margin-right: 6px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 200px;
-  border-radius: 0.4em;
-  padding-top: 0.5em;
-  font-family: 'BladeRunner'; }
+.btn-par {
+  width: 10em;
+  height: 3em;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: #68D286;
+  border-radius: 0.5em;
+  box-shadow: none;
+  color: #68D286; }
 
 article {
   border: 0.3em solid #50a8ff;

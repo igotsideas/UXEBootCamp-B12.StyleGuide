@@ -1,15 +1,6 @@
 @import "buttons/manifest";
 
-.btn-one {
-  @include btn-main(#FF5982)
- }
-
-.btn-two {
-@include btn-main(#CB68D2)
+.btn-par {
+  @include btn-main(#68D286);
 }
-
-.btn-three {
-  @include btn-main(#50A8FF)
-}
-
 

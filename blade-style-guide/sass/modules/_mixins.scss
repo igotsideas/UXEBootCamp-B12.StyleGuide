@@ -1,6 +1,6 @@
 @mixin m-main-box {
     position: relative;
-    border: 0.2em solid black;
+    border: 0.2em solid white;
     max-width: 50em;
     background-color: transparent;
     padding: 4em 2em;
@@ -16,8 +16,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     width: 49.7em;
     padding: 1em 0;
 }

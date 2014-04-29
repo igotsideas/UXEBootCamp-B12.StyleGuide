@@ -1,17 +1,11 @@
 @mixin btn-main($color) {
-    background-color: $color;
-    border: 1px solid white;
-    box-shadow: 0 0 0 2px $color;
-    color: white;
-    display: inline-block;
-    font: normal 13px/25px Helvetica, Arial, Sans Serif;
-    height: 29px;
-    margin-right: 6px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 200px;
-    border-radius: 0.40em;
-    padding-top: 0.5em;
-    font-family: 'BladeRunner';
+    width: 10em;
+    height: 3em;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background: #68D286;
+    border-radius: 0.5em;
+    box-shadow: none;
+    color: $color;
   }

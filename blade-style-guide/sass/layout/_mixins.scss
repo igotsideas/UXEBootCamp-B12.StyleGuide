@@ -1,3 +1,10 @@
+
+body {
+  background-color: black;
+}
+
+
+
 // This is the container
 
 .container {
@@ -12,7 +19,7 @@
   position: relative;
   top: 0;
   height: 6em;
-  background-color: black;
+  background-color: white;
   display: block;
   padding-top: 1em;
 }
@@ -24,7 +31,7 @@
   position: relative;
   top: 0;
   height: 5em;
-  background-color: black;
+  background-color: white;
   display: block;
   padding-top: 1.5em;
   margin-top: 2em;
