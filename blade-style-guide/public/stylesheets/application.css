@@ -238,7 +238,11 @@ body {
   font-size: 0.8em;
   margin-top: 3em; }
 
-.btn-par {
+.m-box-guide button {
+  margin-top: 2em;
+  text-align: center; }
+
+.btn-par1 {
   width: 10em;
   height: 3em;
   -webkit-transform: skew(20deg);
@@ -246,8 +250,21 @@ body {
   -o-transform: skew(20deg);
   background: #68D286;
   border-radius: 0.5em;
-  box-shadow: none;
-  color: #68D286; }
+  box-shadow: none; }
+  .btn-par1 p {
+    color: black; }
+
+.btn-par2 {
+  width: 10em;
+  height: 3em;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: #50A8FF;
+  border-radius: 0.5em;
+  box-shadow: none; }
+  .btn-par2 p {
+    color: black; }
 
 article {
   border: 0.3em solid #50a8ff;

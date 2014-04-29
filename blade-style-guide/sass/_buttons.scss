@@ -1,6 +1,22 @@
 @import "buttons/manifest";
 
-.btn-par {
-  @include btn-main(#68D286);
+.m-box-guide button {
+  margin-top: 2em;
+  text-align: center;
 }
+
+.btn-par1 {
+  @include btn-main(#68D286);
+p {
+  color: $button-color;
+ }
+}
+
+.btn-par2 {
+  @include btn-main(#50A8FF);
+p {
+  color: $button-color;
+ }
+}
+
 
