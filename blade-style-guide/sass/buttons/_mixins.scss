@@ -1,5 +1,7 @@
+// Main Button Mixin
+
 @mixin btn-main($color) {
-    width: 10em;
+    width: 15em;
     height: 3em;
     -webkit-transform: skew(20deg);
        -moz-transform: skew(20deg);
@@ -7,4 +9,22 @@
     background: $color;
     border-radius: 0.5em;
     box-shadow: none;
+    border: none;
+    outline: none;
   }
+
+  // pseudo for btn-main
+
+@mixin btn-main-hover {
+    cursor: pointer;
+    background-color: tomato;
+}
+
+
+// =====Correct text within button from slanting ====
+
+@mixin btn-text-fix{
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}

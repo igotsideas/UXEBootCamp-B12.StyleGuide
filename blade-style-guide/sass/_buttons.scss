@@ -1,7 +1,9 @@
 @import "buttons/manifest";
 
 .m-box-guide button {
-  margin-top: 2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
   text-align: center;
 }
 
@@ -9,6 +11,10 @@
   @include btn-main(#68D286);
 p {
   color: $button-color;
+  @include btn-text-fix;
+ }
+ &:hover {
+  @include btn-main-hover;
  }
 }
 
@@ -16,6 +22,10 @@ p {
   @include btn-main(#50A8FF);
 p {
   color: $button-color;
+  @include btn-text-fix;
+ }
+ &:hover {
+  @include btn-main-hover;
  }
 }
 
