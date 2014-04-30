@@ -1,0 +1,13 @@
+
+#menu {
+  position:fixed;
+  width:150px;
+  left: 1.3em;
+  top:6em;
+  border: 0.3em solid $article-box;
+  background-color:$box-color;
+}
+
+#menu a {
+  display: block;
+}

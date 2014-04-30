@@ -19,6 +19,7 @@ blade-style-guide/public/stylesheets/*.css.map
 ###############
 blade-style-guide/sass/bourbon
 blade-style-guide/sass/neat
+blade-style-guide/bourbon
 
 # Package dependencies
 ######################
