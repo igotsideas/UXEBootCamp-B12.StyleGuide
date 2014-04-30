@@ -3,15 +3,12 @@ body {
   background-color: black;
 }
 
-
-
 // This is the container
 
 .container {
   @include outer-container;
   text-align: center;
 }
-
 
 //make block span entire page!
 @mixin header-bar{
@@ -24,8 +21,7 @@ body {
   padding-top: 1em;
 }
 
-
-
+// Footer
 @mixin footer-bar{
   width: 100%;
   position: relative;
@@ -36,5 +32,3 @@ body {
   padding-top: 1.5em;
   margin-top: 2em;
 }
-
-

@@ -57,3 +57,14 @@
   font-size: 0.8em;
   margin-top: 3em;
 }
+
+// ====Search Box=====
+
+input {
+  @include box-search;
+&:focus {
+  @include box-focus;
+ }
+}
+
+
