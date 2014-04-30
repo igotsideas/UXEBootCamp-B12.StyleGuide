@@ -57,3 +57,9 @@
   font-size: 0.8em;
   margin-top: 3em;
 }
+
+// This is the search box
+
+input {
+  @include search-box;
+}
