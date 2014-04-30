@@ -3,10 +3,10 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
+          'public/stylesheets/main.css': 'sass/main.scss',
           'public/stylesheets/application.css': 'sass/application.scss'
         },
         options: {
-          sourceComments: "map",
           includePaths: [
             './bower_components/bower-bourbon',
             './bower_components/bower-neat',
