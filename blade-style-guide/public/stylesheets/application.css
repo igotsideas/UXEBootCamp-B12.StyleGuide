@@ -1,3 +1,4 @@
+/* line 2, ./bower_components/bower-neat/grid/grid */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,6 +8,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 18, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -16,35 +18,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+/* line 28, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* line 31, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 body {
   line-height: 1; }
 
+/* line 34, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 ol, ul {
   list-style: none; }
 
+/* line 37, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 blockquote, q {
   quotes: none; }
 
+/* line 41, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
+/* line 45, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/reset */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-p {
-  font-family: 'orbitronregular'; }
-
-a {
-  font-family: 'orbitronbold';
-  font-weight: bold; }
-
-h1, h2 {
-  font-family: 'blade_runner_movie_fontRg'; }
 
 @font-face {
   font-family: 'orbitronbold';
@@ -74,6 +72,7 @@ h1, h2 {
   font-weight: normal;
   font-style: normal; }
 
+/* line 46, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -86,85 +85,134 @@ h1, h2 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* line 60, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-newspaper:before {
   content: "\e601"; }
 
+/* line 63, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-calendar:before {
   content: "\e600"; }
 
+/* line 66, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-print:before {
   content: "\e602"; }
 
+/* line 69, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-keyboard:before {
   content: "\e603"; }
 
+/* line 72, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-cogs:before {
   content: "\e604"; }
 
+/* line 75, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-meter:before {
   content: "\e605"; }
 
+/* line 78, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-target:before {
   content: "\e606"; }
 
+/* line 81, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-lightning:before {
   content: "\e607"; }
 
+/* line 84, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-globe:before {
   content: "\e608"; }
 
+/* line 87, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-earth:before {
   content: "\e609"; }
 
+/* line 90, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-spam:before {
   content: "\e60a"; }
 
+/* line 94, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 h1 {
+  font-family: 'blade_runner_movie_fontRg', Arial;
   color: #FF5982;
   font-size: 3em;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
+/* line 102, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 h2 {
+  font-family: 'blade_runner_movie_fontRg', Arial;
   color: #CB68D2;
   font-size: 2.2em;
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
 
+/* line 110, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 p {
+  font-family: 'orbitronregular', Arial;
   color: #999999;
   font-size: 1em; }
 
+/* line 116, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 a {
+  font-family: 'orbitronbold', Arial;
   text-decoration: none;
   font-weight: 700;
   color: #50A8FF; }
 
+/* line 123, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .style-link {
   margin-top: 1.5em;
   display: inline-block; }
 
+/* line 128, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .icon-style {
   font-size: 2.5em;
   padding: 0.3em;
   margin-top: 1em;
   display: inline-block; }
 
+/* line 138, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
+.l-style h1 {
+  font-family: 'blade_runner_movie_fontRg', Arial;
+  font-size: 4em;
+  text-align: center;
+  color: #000000;
+  margin: 0; }
+
+/* line 146, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
+.l-foot h3 {
+  font-family: 'blade_runner_movie_fontRg', Arial;
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+  margin: 0; }
+
+/* line 154, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
+.m-border h1 {
+  font-family: 'orbitronregular', Arial;
+  font-size: 2em;
+  color: #000000;
+  margin: 0; }
+
+/* line 2, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/layout/mixins */
 body {
   background-color: black; }
 
+/* line 10, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/layout/mixins */
 .container {
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
+  /* line 18, ./bower_components/bower-bourbon/addons/clearfix */
   .container:before, .container:after {
     content: " ";
     display: table; }
+  /* line 23, ./bower_components/bower-bourbon/addons/clearfix */
   .container:after {
     clear: both; }
 
+/* line 3, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/layout */
 .l-style {
   width: 100%;
   position: relative;
@@ -174,6 +222,7 @@ body {
   display: block;
   padding-top: 1em; }
 
+/* line 7, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/layout */
 .l-foot {
   width: 100%;
   position: relative;
@@ -184,125 +233,7 @@ body {
   padding-top: 1.5em;
   margin-top: 2em; }
 
-input:focus {
-  /* Picked a random icon from Google */
-  background-position: 30em center;
-  background-size: 2em;
-  text-indent: 3em;
-  width: 30%; }
-
-.l-style h1 {
-  font-family: 'blade_runner_movie_fontRg';
-  font-size: 4em;
-  text-align: center;
-  color: black;
-  margin: 0; }
-
-.l-foot h3 {
-  font-family: 'blade_runner_movie_fontRg';
-  font-size: 2em;
-  text-align: center;
-  color: black;
-  margin: 0; }
-
-.m-border h1 {
-  font-family: 'Orbitron', 'sans-serif';
-  font-size: 2em;
-  color: black;
-  margin: 0; }
-
-.m-box-guide {
-  position: relative;
-  border: 0.2em solid white;
-  max-width: 50em;
-  background-color: transparent;
-  padding: 4em 2em;
-  margin: 0 auto;
-  border-radius: 0.5em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-top: 4.5em; }
-
-.m-border {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: white;
-  color: black;
-  width: 49.7em;
-  padding: 1em 0; }
-
-.m-box-blue {
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  width: 6em;
-  height: 6em;
-  background-color: #50A8FF; }
-
-.m-box-blue p {
-  color: white;
-  font-size: 0.8em;
-  margin-top: 3em; }
-
-.m-box-pink {
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  width: 6em;
-  height: 6em;
-  background-color: #FF5982; }
-
-.m-box-pink p {
-  color: white;
-  font-size: 0.8em;
-  margin-top: 3em; }
-
-.m-box-green {
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  width: 6em;
-  height: 6em;
-  background-color: #68D286; }
-
-.m-box-green p {
-  color: white;
-  font-size: 0.8em;
-  margin-top: 3em; }
-
-.m-box-purple {
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  width: 6em;
-  height: 6em;
-  background-color: #CB68D2; }
-
-.m-box-purple p {
-  color: white;
-  font-size: 0.8em;
-  margin-top: 3em; }
-
-.m-box-charc {
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  width: 6em;
-  height: 6em;
-  background-color: #364339; }
-
-.m-box-charc p {
-  color: white;
-  font-size: 0.8em;
-  margin-top: 3em; }
-
+/* line 1, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/extends */
 input {
   background-image: url(http://upload.wikimedia.org/wikipedia/en/2/2d/Blade_runner_guy-red_on_transparent_bg.png);
   background-size: 2em;
@@ -323,12 +254,142 @@ input {
   transition: all 0.2s;
   width: 15%; }
 
+/* line 26, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/extends */
+input:focus {
+  background-position: 30em center;
+  background-size: 2em;
+  text-indent: 3em;
+  width: 30%; }
+
+/* line 34, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/extends */
+.m-box-guide {
+  position: relative;
+  border: 0.2em solid white;
+  max-width: 50em;
+  background-color: transparent;
+  padding: 4em 2em;
+  margin: 0 auto;
+  border-radius: 0.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 4.5em; }
+
+/* line 48, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/extends */
+.m-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  width: 49.7em;
+  padding: 1em 0; }
+
+
+
+/* line 11, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-blue {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #50A8FF; }
+
+/* line 15, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-blue p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+/* line 21, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-pink {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #FF5982; }
+
+/* line 25, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-pink p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+/* line 31, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-green {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #68D286; }
+
+/* line 35, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-green p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+/* line 41, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-purple {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #CB68D2; }
+
+/* line 45, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-purple p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+/* line 51, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-charc {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 6em;
+  height: 6em;
+  background-color: #364339; }
+
+/* line 55, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+.m-box-charc p {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 3em; }
+
+/* line 63, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+input {
+  margin-top: 3em; }
+
+/* line 3, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons/extends */
+.btn-par1:hover, .btn-par2:hover {
+  cursor: pointer;
+  background-color: tomato; }
+
+/* line 11, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons/extends */
+.btn-par1 p, .btn-par2 p {
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg); }
+
+/* line 3, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons */
 .m-box-guide button {
   margin-top: 3em;
   margin-left: 2em;
   margin-right: 2em;
   text-align: center; }
 
+/* line 10, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons */
 .btn-par1 {
   width: 15em;
   height: 3em;
@@ -340,15 +401,11 @@ input {
   box-shadow: none;
   border: none;
   outline: none; }
+  /* line 12, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons */
   .btn-par1 p {
-    color: black;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg); }
-  .btn-par1:hover {
-    cursor: pointer;
-    background-color: tomato; }
+    color: black; }
 
+/* line 21, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons */
 .btn-par2 {
   width: 15em;
   height: 3em;
@@ -360,22 +417,17 @@ input {
   box-shadow: none;
   border: none;
   outline: none; }
+  /* line 23, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/buttons */
   .btn-par2 p {
-    color: black;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg); }
-  .btn-par2:hover {
-    cursor: pointer;
-    background-color: tomato; }
+    color: black; }
 
+/* line 5, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/articles */
 article {
   border: 0.3em solid #50a8ff;
   padding: 1em;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.5); }
 
+/* line 12, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/articles */
 .a-bloc {
   margin-top: 1.5em; }
-
-/*# sourceMappingURL=application.css.map */

@@ -11,10 +11,10 @@
   @include btn-main(#68D286);
 p {
   color: $button-color;
-  @include btn-text-fix;
+  @extend %btn-text-fix;
  }
  &:hover {
-  @include btn-main-hover;
+  @extend %btn-main-hover;
  }
 }
 
@@ -22,11 +22,9 @@ p {
   @include btn-main(#50A8FF);
 p {
   color: $button-color;
-  @include btn-text-fix;
+  @extend %btn-text-fix;
  }
  &:hover {
-  @include btn-main-hover;
+  @extend %btn-main-hover;
  }
 }
-
-

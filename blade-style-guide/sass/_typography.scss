@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'orbitronbold';
     src: url('fonts/orbitron-bold-webfont.eot');
@@ -91,28 +92,32 @@
 }
 
 h1 {
-  color: #FF5982;
-  font-size: 3em;
+  font-family: $headlines;
+  color: $hl-color-one;
+  font-size: $h1-size;
   margin-top: .5em;
   margin-bottom: .5em;
 }
 
 h2 {
-  color: #CB68D2;
-  font-size: 2.2em;
+  font-family: $headlines;
+  color: $hl-color-two;
+  font-size: $h2-size;
   margin-top: .5em;
   margin-bottom: .5em;
 }
 
 p {
-  color: #999999;
-  font-size: 1em;
+  font-family: $parag;
+  color: $p-color;
+  font-size: $p-size;
 }
 
 a {
+  font-family: $anchor;
   text-decoration: none;
   font-weight: 700;
-  color: #50A8FF;
+  color: $a-color;
 }
 
 .style-link {
@@ -121,8 +126,36 @@ a {
 }
 
 .icon-style {
-  font-size: 2.5em;
+  font-size: $icon-size;
   padding: 0.3em;
   margin-top: 1em;
   display: inline-block;
 }
+
+
+// This is the default style for heading elements
+
+ .l-style h1 {
+  font-family: $headlines;
+  font-size: $h1-box-size;
+  text-align: center;
+  color: $box-text;
+  margin: 0;
+}
+
+.l-foot h3 {
+  font-family: $headlines;
+  font-size: $h3-box-size;
+  text-align: center;
+  color: $box-text;
+  margin: 0;
+}
+
+.m-border h1 {
+  font-family: $parag;
+  font-size: $h1-border-size;
+  color: $box-text;
+  margin: 0;
+}
+
+

@@ -1,13 +1,29 @@
-p {
-  font-family: 'orbitronregular';
-}
+// ========= colors ==========
 
-a {
-  font-family: 'orbitronbold';
-  font-weight: bold;
-}
+$hl-color-one:      #FF5982;
+$hl-color-two:      #CB68D2;
+$btn-color-one:     #68D286;
+$btn-color-two:     #50A8FF;
+$p-color:           #999999;
+$box-color:         #ffffff;
+$article-box:       #50A8FF;
+$a-color:           #50A8FF;
+$box-text:          #000000;
 
-h1, h2 {
-  font-family: 'blade_runner_movie_fontRg';
-}
 
+
+// ========This is font variables=======
+$parag: #{'orbitronregular', Arial};
+$anchor: #{'orbitronbold', Arial};
+$headlines: #{'blade_runner_movie_fontRg', Arial};
+
+
+// ======== Text sizes ========
+
+$p-size: 1em;
+$h1-size: 3em;
+$h2-size: 2.2em;
+$icon-size: 2.5em;
+$h1-box-size: 4em;
+$h3-box-size: 2em;
+$h1-border-size: 2em;

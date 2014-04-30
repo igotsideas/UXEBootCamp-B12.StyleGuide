@@ -1,11 +1,11 @@
 @import "modules/manifest";
 
 .m-box-guide {
-  @include m-main-box;
+  @extend %m-main-box;
 }
 
 .m-border {
-  @include m-main-border;
+  @extend %m-main-border;
 }
 
 .m-box-blue {
@@ -61,5 +61,9 @@
 // This is the search box
 
 input {
-  @include search-box;
+  margin-top: 3em;
+  @extend %search-box;
+&:focus {
+  @extend %search-box-focus;
+ }
 }

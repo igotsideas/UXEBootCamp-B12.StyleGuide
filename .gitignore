@@ -8,17 +8,19 @@
 ehthumbs.db
 Thumbs.db
 
+
+
 # Generated CSS output
 #######################
-public/stylesheets/*.css
-public/stylesheets/*.css.map
+blade-style-guide/public/stylesheets/*.css
+blade-style-guide/public/stylesheets/*.css.map
 
 # bourbon
 ###############
-/sass/bourbon
-/sass/neat
+blade-style-guide/sass/bourbon
+blade-style-guide/sass/neat
 
 # Package dependencies
 ######################
-node_modules/
-bower_components
+blade-style-guide/node_modules/
+blade-style-guide/bower_components

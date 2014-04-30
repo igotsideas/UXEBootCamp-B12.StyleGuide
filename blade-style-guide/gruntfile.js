@@ -6,7 +6,7 @@ module.exports = function(grunt) {
           'public/stylesheets/application.css': 'sass/application.scss'
         },
         options: {
-          sourceComments: "map",
+          sourceComments: "normal",
           includePaths: [
             './bower_components/bower-bourbon',
             './bower_components/bower-neat',
