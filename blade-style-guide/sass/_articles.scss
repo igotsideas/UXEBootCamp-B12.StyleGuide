@@ -3,10 +3,7 @@
 
 
 article {
-  border: 0.3em solid #50a8ff;
-  padding:1em;
-  text-align: justify;
-  background-color: rgba(0, 0, 0, 0.5);
+  @extend %art-default;
 }
 
 .a-bloc {
