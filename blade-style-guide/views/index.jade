@@ -4,86 +4,18 @@ block content
 
   header.l-style
     h1 Style Guide
+
   .container
-
-    //Put size and font next to h1, h2, and p
-    section.m-box-guide
-      .m-border
-        h1 Typography
-      h1 This is a headline
-      h2 this is a sub headline
-      p This is our paragraph type. We will add more about this font later.
-      a.style-link(href="#") This is a link
-
-
-    section.m-box-guide
-      .m-border
-        h1 Color Palette
-      .m-box-blue
-        p #50A8FF
-      .m-box-pink
-        p #FF5982
-      .m-box-green
-        p #68D286
-      .m-box-purple
-        p #CB68D2
-      .m-box-charc
-        p #364339
-
-    //- section.m-box-guide
-    //-   .m-border
-    //-     h1 Header
-
-    //- section.m-box-guide
-    //-   .m-border
-    //-     h1 Footer
-
-    section.m-box-guide
-      .m-border
-        h1 Article
-      article.a-bloc
-        h1 This is an Article
-        p We need to explain why we have this article later on. We need to explain why we have this article later on. We need to explain why we have this article later on.
-
-    section.m-box-guide
-      .m-border
-        h1 Navigation
-
-
-    //- section.m-box-guide
-    //-   .m-border
-    //-     h1 Images
-
-
-    section.m-box-guide
-      .m-border
-        h1 Forms
-      input(type="search" name="search" placeholder="Search" rel="search")
-
-    section.m-box-guide
-      .m-border
-        h1 Buttons
-      button.btn-par1
-        p Button 1
-      button.btn-par2
-        p button 2
-
-    section.m-box-guide
-      .m-border
-        h1 Icon Fonts
-      a.icon-newspaper.icon-style(href="#")
-      a.icon-calendar.icon-style(href="#")
-      a.icon-print.icon-style(href="#")
-      a.icon-keyboard.icon-style(href="#")
-      a.icon-cogs.icon-style(href="#")
-      a.icon-meter.icon-style(href="#")
-      a.icon-target.icon-style(href="#")
-      a.icon-lightning.icon-style(href="#")
-      a.icon-globe.icon-style(href="#")
-      a.icon-earth.icon-style(href="#")
-      a.icon-spam.icon-style(href="#")
+    include typography
+    include color
+    include article
+    include nav
+    include forms
+    include buttons
+    include icons
 
   footer.l-foot
     h3 This is a footer
+
 
 
