@@ -179,6 +179,12 @@ a {
   position:fixed;
   top:0;
   left:0.5em;
+  @include media($tablet){
+    top: -0.3em;
+  }
+  @include media($mobile){
+    top: -0.5em;
+  }
 }
 
 .l-foot h3 {

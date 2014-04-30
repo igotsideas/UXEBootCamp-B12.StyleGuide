@@ -216,8 +216,14 @@ a {
   position: fixed;
   top: 0;
   left: 0.5em; }
+  @media screen and (min-width: 480px) and (max-width: 959px) {
+    .icon-responsive {
+      top: -0.3em; } }
+  @media screen and (max-width: 479px) {
+    .icon-responsive {
+      top: -0.5em; } }
 
-/* line 184, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
+/* line 190, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .l-foot h3 {
   font-family: 'blade_runner_movie_fontRg', Arial;
   font-size: 2em;
@@ -231,7 +237,7 @@ a {
     .l-foot h3 {
       font-size: 1em; } }
 
-/* line 198, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
+/* line 204, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/typography */
 .m-border h1 {
   font-family: 'orbitronregular', Arial;
   font-size: 2em;
@@ -328,8 +334,14 @@ body {
   top: 6em;
   border: 0.3em solid #50A8FF;
   background-color: #ffffff; }
+  @media screen and (min-width: 480px) and (max-width: 959px) {
+    #menu {
+      top: 4.2em; } }
+  @media screen and (max-width: 479px) {
+    #menu {
+      top: 4em; } }
 
-/* line 11, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/menu */
+/* line 17, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/menu */
 #menu a {
   display: block; }
 

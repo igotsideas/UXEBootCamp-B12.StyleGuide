@@ -6,6 +6,12 @@
   top:6em;
   border: 0.3em solid $article-box;
   background-color:$box-color;
+  @include media($tablet){
+    top: (6em * 0.7);
+  }
+  @include media($mobile){
+    top: 4em;
+  }
 }
 
 #menu a {
