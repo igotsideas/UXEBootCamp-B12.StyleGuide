@@ -148,12 +148,9 @@ a {
   padding: 0.3em;
   margin-top: 1em;
   display: inline-block;
-<<<<<<< HEAD
   &:hover{
     color: tomato;
   }
-=======
->>>>>>> c02b78f23a5ca7c27aa1d7eb7d93a893618eb07b
   @include media($tablet){
     font-size: ($icon-size * 0.7);
   }
