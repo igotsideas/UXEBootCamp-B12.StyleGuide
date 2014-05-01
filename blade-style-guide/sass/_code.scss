@@ -1,0 +1,27 @@
+// Code Style
+
+// pre {
+//   display: block;
+//   width: 80%;
+//   margin: 1em auto;
+//   padding: .3em;
+//   background-color: $code-block;
+//   text-align: left;
+// }
+
+
+code {
+  font-family: courier;
+  color: $box-text;
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  padding: .3em;
+  background-color: $code-block;
+  text-align: left;
+  @include media($tablet){
+  font-size: 0.65em;
+  }
+  @include media($mobile){
+  font-size: 0.5em;  }
+}

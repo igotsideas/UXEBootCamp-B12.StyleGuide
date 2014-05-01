@@ -1,5 +1,18 @@
 @import "layout/manifest";
 
+body {
+  background-color: black;
+}
+
+
+
+// This is the container
+
+.container {
+  @include outer-container;
+  text-align: center;
+}
+
 .l-style {
   @include header-bar;
 }

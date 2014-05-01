@@ -1,14 +1,22 @@
 // ========= colors ==========
 
-$hl-color-one:      #FF5982;
-$hl-color-two:      #CB68D2;
-$btn-color-one:     #68D286;
-$btn-color-two:     #50A8FF;
+$color1:            #50A8FF;
+$color2:            #FF5982;
+$color3:            #68D286;
+$color4:            #CB68D2;
+$color5:            #FF6347;
+
+
+$hl-color-one:      $color2;
+$hl-color-two:      $color4;
+$btn-color-one:     $color3;
+$btn-color-two:     $color1;
 $p-color:           #999999;
 $box-color:         #ffffff;
-$article-box:       #50A8FF;
-$a-color:           #50A8FF;
+$article-box:       $color1;
+$a-color:           $color1;
 $box-text:          #000000;
+$code-block:        #B0B0B0;
 
 
 
@@ -27,3 +35,8 @@ $icon-size: 2.5em;
 $h1-box-size: 4em;
 $h3-box-size: 2em;
 $h1-border-size: 2em;
+
+$mobile: new-breakpoint(max-width 479px);
+$tablet: new-breakpoint(min-width 480px max-width 959px);
+$desktop: new-breakpoint(min-width 960px);
+

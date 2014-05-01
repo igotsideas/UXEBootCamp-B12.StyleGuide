@@ -13,7 +13,7 @@
 }
 
 .m-box-blue p {
-  color:white;
+  color:$box-color;
   font-size: 0.8em;
   margin-top: 3em;
 }
@@ -23,7 +23,7 @@
 }
 
 .m-box-pink p {
-  color:white;
+  color:$box-color;
   font-size: 0.8em;
   margin-top: 3em;
 }
@@ -33,7 +33,7 @@
 }
 
 .m-box-green p {
-  color:white;
+  color:$box-color;
   font-size: 0.8em;
   margin-top: 3em;
 }
@@ -43,20 +43,21 @@
 }
 
 .m-box-purple p {
-  color:white;
+  color:$box-color;
   font-size: 0.8em;
   margin-top: 3em;
 }
 
 .m-box-charc {
-  @include m-box-color(#364339);
+  @include m-box-color(#FF6347);
 }
 
 .m-box-charc p {
-  color:white;
+  color:$box-color;
   font-size: 0.8em;
   margin-top: 3em;
 }
+
 
 // =====This is the search box=====
 

@@ -81,6 +81,9 @@
 .icon-lightning:before {
   content: "\e607";
 }
+.icon-menu:before {
+  content: "\e60b";
+}
 .icon-globe:before {
   content: "\e608";
 }
@@ -97,6 +100,12 @@ h1 {
   font-size: $h1-size;
   margin-top: .5em;
   margin-bottom: .5em;
+  @include media($tablet){
+    font-size: ($h1-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($h1-size * 0.5);
+  }
 }
 
 h2 {
@@ -105,12 +114,21 @@ h2 {
   font-size: $h2-size;
   margin-top: .5em;
   margin-bottom: .5em;
+  @include media($tablet){
+    font-size: ($h2-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($h2-size * 0.5);
+  }
 }
 
 p {
   font-family: $parag;
   color: $p-color;
   font-size: $p-size;
+  @include media($mobile){
+    font-size: ($p-size * 0.7);
+  }
 }
 
 a {
@@ -130,6 +148,15 @@ a {
   padding: 0.3em;
   margin-top: 1em;
   display: inline-block;
+  &:hover{
+    color: tomato;
+  }
+  @include media($tablet){
+    font-size: ($icon-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($icon-size * 0.5);
+  }
 }
 
 
@@ -141,6 +168,28 @@ a {
   text-align: center;
   color: $box-text;
   margin: 0;
+  @include media($tablet){
+    font-size: ($h1-box-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($h1-box-size * 0.5);
+  }
+}
+
+.icon-responsive {
+  display:inline-block;
+  font-size: 3em;
+  position: fixed;
+  top: -0.83em;
+  left:0.5em;
+  @include media($tablet){
+    top: -0.6em;
+    font-size: ($h3-box-size * 1);
+  }
+  @include media($mobile){
+    top: -0.6em;
+    font-size: ($h3-box-size * 0.8);
+  }
 }
 
 .l-foot h3 {
@@ -149,6 +198,12 @@ a {
   text-align: center;
   color: $box-text;
   margin: 0;
+  @include media($tablet){
+    font-size: ($h3-box-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($h3-box-size * 0.5);
+  }
 }
 
 .m-border h1 {
@@ -156,6 +211,12 @@ a {
   font-size: $h1-border-size;
   color: $box-text;
   margin: 0;
+  @include media($tablet){
+    font-size: ($h1-border-size * 0.7);
+  }
+  @include media($mobile){
+    font-size: ($h1-border-size * 0.5);
+  }
 }
 
 
