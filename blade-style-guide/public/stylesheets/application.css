@@ -342,6 +342,10 @@ body {
       top: 4em; } }
 
 /* line 17, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/menu */
+.slide-up {
+  visibility: hidden; }
+
+/* line 21, /Users/Zephyr/codefellows/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules/menu */
 #menu a {
   display: block; }
 
