@@ -428,7 +428,7 @@ body {
   margin-right: 0.5em;
   width: 6em;
   height: 6em;
-  background-color: #364339; }
+  background-color: #FF6347; }
 
 /* line 55, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
 .m-box-charc p {
@@ -436,7 +436,7 @@ body {
   font-size: 0.8em;
   margin-top: 3em; }
 
-/* line 63, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
+/* line 64, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/modules */
 input {
   margin-top: 4em; }
 
@@ -530,15 +530,19 @@ input:focus {
   text-indent: 3em;
   width: 30%; }
 
-/* line 3, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/code */
-pre {
+/* line 13, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/code */
+code {
+  font-family: courier;
+  color: #000000;
   display: block;
   width: 80%;
   margin: 1em auto;
   padding: 0.3em;
   background-color: #B0B0B0;
   text-align: left; }
-
-/* line 13, /Users/waystylez1/ux-bootcamp/UXEBootCamp-B12.StyleGuide/blade-style-guide/sass/code */
-code {
-  color: #000000; }
+  @media screen and (min-width: 480px) and (max-width: 959px) {
+    code {
+      font-size: 0.65em; } }
+  @media screen and (max-width: 479px) {
+    code {
+      font-size: 0.5em; } }
