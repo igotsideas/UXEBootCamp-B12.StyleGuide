@@ -10,11 +10,6 @@ Thumbs.db
 
 
 
-# Generated CSS output
-#######################
-blade-style-guide/public/stylesheets/*.css
-blade-style-guide/public/stylesheets/*.css.map
-
 # bourbon
 ###############
 blade-style-guide/sass/bourbon
